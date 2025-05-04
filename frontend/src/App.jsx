@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import "./index.css";
 
 // pages
 import ProductsPage from "./pages/ProductsPage/ProductsPage.jsx"
