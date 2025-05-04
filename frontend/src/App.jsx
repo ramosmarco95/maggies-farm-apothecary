@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/maggies-farm-apothecary/">
+      <Router>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="/services" element={<h1>Services</h1>} />
           <Route path="/products" element={<ProductsPage />} />
         </Routes>
-      </BrowserRouter>     
+      </Router>     
     </>
   )
 }
