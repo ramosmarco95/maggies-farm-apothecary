@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route basename="/maggies-farm-apothecary" element={<HomePage />} />
+          <Route basename="/maggies-farm-apothecary/" element={<HomePage />} />
           <Route path="/about" element={<h1>About</h1>} />
           <Route path="/contact" element={<h1>Contact</h1>} />
           <Route path="/services" element={<h1>Services</h1>} />
