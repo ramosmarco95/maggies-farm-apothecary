@@ -12,16 +12,16 @@ function App() {
 
   return (
     <>
-      <Router>
+      <BrowserRouter basename="/maggies-farm-apothecary/">
         <Header />
         <Routes>
-          <Route basename="/maggies-farm-apothecary/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<h1>About</h1>} />
           <Route path="/contact" element={<h1>Contact</h1>} />
           <Route path="/services" element={<h1>Services</h1>} />
           <Route path="/products" element={<ProductsPage />} />
         </Routes>
-      </Router>     
+      </BrowserRouter>     
     </>
   )
 }
