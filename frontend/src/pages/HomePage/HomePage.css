@@ -1,0 +1,11 @@
+.bg-image {
+    background-image: url("../../assets/homepage-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    height: 50vh;
+    display: block;
+    border-radius: 0.5rem; /* Optional: Match your Bootstrap rounded class */
+}
+
