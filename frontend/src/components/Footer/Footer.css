@@ -1,0 +1,13 @@
+.footer {
+    background-image: url("../../assets/wave.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #334d66; 
+    color: white;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+a.text-white:hover {
+    text-decoration: underline;
+}
