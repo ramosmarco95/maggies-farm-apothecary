@@ -26,14 +26,8 @@ const Navbar = () => {
               <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
-            </li>
-            <li className="nav-item">
               <Link className="nav-link" to="/products">Products</Link>
-            </li>  
-            <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
-            </li> 
+            </li>
             <li className="nav-item dropdown">
               <a 
                 className="nav-link dropdown-toggle" 
@@ -45,9 +39,8 @@ const Navbar = () => {
                 Services
               </a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Link</a></li>
-                <li><a className="dropdown-item" href="#">Another link</a></li>
-                <li><a className="dropdown-item" href="#">A third link</a></li>
+                <li><a className="dropdown-item" href="#">Coming Soon</a></li>
+                <li><a className="dropdown-item" href="#">Coming Soon</a></li>
               </ul>
             </li>
           </ul>
