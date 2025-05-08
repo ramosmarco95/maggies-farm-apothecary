@@ -1,1 +1,9 @@
-*.env
+# Environment variables
+
+# Ignore all .env files
+**/.env 
+
+# Node.js specific
+
+# Ignore all node_modules directories
+**/node_modules/
