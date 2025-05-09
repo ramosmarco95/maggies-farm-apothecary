@@ -1,17 +1,16 @@
-
 import React from 'react';
 
 const ProductCard = ({ product }) => {
   return (
-    <div className="card shadow-sm rounded-lg p-4 hover:shadow-md transition">
+    <div className="bg-white shadow-sm rounded-lg p-4 hover:shadow-md transition duration-300 text-center h-100 d-flex flex-column justify-content-between">
       <img
-        src={product.picture}
-        alt={product.name}
-        className="w-full h-48 object-cover rounded-md mb-4"
-        style={{width:150, height: "auto"}}
+         src={product.picture}
+         alt={product.name}
+         className="img-fluid rounded"
+         style={{ maxHeight: '300px', objectFit: 'contain' }}
       />
       <h2 className="text-xl font-semibold">{product.name}</h2>
-      <p className="text-gray-600">{product.description}</p>
+      <p className="">{product.description}</p>
       <div className="mt-2">
         <span className="text-lg font-bold">${product.price.toFixed(2)}</span>
       </div>

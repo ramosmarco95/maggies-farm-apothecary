@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Herbal Face Cream",
+      "description": "A soothing moisturizer made with lavender and chamomile.",
+      "price": 18.99,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/ginger-soap.jpg"
+    },
+    {
+      "name": "Organic Lip Balm",
+      "description": "Natural beeswax lip balm with peppermint oil.",
+      "price": 4.50,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/rosmary-oil.jpg"
+    },
+    {
+      "name": "Aloe Vera Gel",
+      "description": "Cooling aloe vera gel perfect for sunburns and skin irritation.",
+      "price": 9.99,
+      "inStock": false,
+      "picture": "/maggies-farm-apothecary/products-img/basil-soap.jpg"
+    },
+    {
+      "name": "Essential Oil Blend",
+      "description": "A calming mix of lavender, ylang-ylang, and bergamot oils.",
+      "price": 14.25,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/flower-oil.jpg"
+    },
+    {
+      "name": "Natural Deodorant",
+      "description": "Aluminum-free deodorant with tea tree and coconut oil.",
+      "price": 7.95,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/ginger-soap.jpg"
+    },
+    {
+      "name": "Eucalyptus Bath Soak",
+      "description": "Relaxing bath salts with eucalyptus and sea minerals.",
+      "price": 12.00,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/rosmary-oil.jpg"
+    },
+    {
+      "name": "Citrus Body Scrub",
+      "description": "Exfoliating body scrub with lemon and orange zest.",
+      "price": 10.75,
+      "inStock": false,
+      "picture": "/maggies-farm-apothecary/products-img/basil-soap.jpg"
+    },
+    {
+      "name": "Rosewater Toner",
+      "description": "Hydrating facial toner with rosewater and witch hazel.",
+      "price": 11.99,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/flower-oil.jpg"
+    },
+    {
+      "name": "Healing Salve",
+      "description": "Multi-purpose salve for cuts, scrapes, and dry skin.",
+      "price": 6.50,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/ginger-soap.jpg"
+    },
+    {
+      "name": "Lavender Pillow Spray",
+      "description": "Promotes restful sleep with calming lavender aroma.",
+      "price": 8.99,
+      "inStock": true,
+      "picture": "/maggies-farm-apothecary/products-img/rosmary-oil.jpg"
+    }
+  ]
+  
